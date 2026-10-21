@@ -28,3 +28,26 @@ Answering the question: **Which programming languages are most in demand in the 
 | BeautifulSoup4 | HTML parsing (fallback) |
 
 ## 📁 Project Structure
+job-trend-project/
+├── jobvision_crawler.py # Main crawler (uses JobVision API)
+├── collect_multiple.py # Collect data from multiple keywords
+├── combine_all.py # Merge datasets and remove duplicates
+├── final_analysis.py # Final analysis and chart generation
+├── time_trend.py # Time-based trend analysis
+├── run_project.py # Master script (runs entire pipeline)
+├── app.py # Streamlit interactive dashboard
+├── output/
+│ ├── ALL_JOBS_COMBINED.xlsx
+│ ├── FINAL_ANALYSIS.xlsx
+│ ├── chart_languages.png
+│ └── chart_time.png
+└── README.md
+
+## 🚀 How to Run
+
+### 1. Install dependencies
+
+```bash
+pip install requests pandas matplotlib openpyxl streamlit beautifulsoup4 lxml
+
+
