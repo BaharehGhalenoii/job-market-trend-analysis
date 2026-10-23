@@ -2,11 +2,11 @@
 
 A complete web scraping and data analysis project that examines the demand trend for programming languages in job postings on [JobVision](https://jobvision.ir), one of Iran's largest job platforms.
 
-## 🎯 Project Goal
+##  Project Goal
 
 Answering the question: **Which programming languages are most in demand in the Iranian job market?**
 
-## ✨ Features
+##  Features
 
 - ✅ Automated collection of job postings from JobVision
 - ✅ Extraction of 27 columns of information (title, company, skills, publication date, etc.)
@@ -15,7 +15,7 @@ Answering the question: **Which programming languages are most in demand in the 
 - ✅ Interactive dashboard with Streamlit
 - ✅ Search functionality by language, job title, or company
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -27,7 +27,7 @@ Answering the question: **Which programming languages are most in demand in the 
 | openpyxl | Excel export |
 | BeautifulSoup4 | HTML parsing (fallback) |
 
-## 📁 Project Structure
+##  Project Structure
 job-trend-project/
 ├── jobvision_crawler.py # Main crawler (uses JobVision API)
 ├── collect_multiple.py # Collect data from multiple keywords
@@ -43,7 +43,7 @@ job-trend-project/
 │ └── chart_time.png
 └── README.md
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Install dependencies
 
